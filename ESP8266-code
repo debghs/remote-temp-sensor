@@ -1,9 +1,9 @@
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
-const char *ssid = "r";
-const char *password = "getyours";
-const char *mqttBroker = "192.168.168.249";
+const char *ssid = "wifi_ssid";
+const char *password = "wifi_password";
+const char *mqttBroker = "xxx.xxx.xxx.xxx";
 const int mqttPort = 1883;
 const char *mqttClientId = "nodemcu_client";
 const char *mqttTopic = "lm35/temperature";
