@@ -1,9 +1,9 @@
 import paho.mqtt.client as mqtt
  
-mqttBroker = "192.168.249.249"
+mqttBroker = "xxx.xxx.xxx.xxx"
 mqttPort = 1883
-mqttUsername = "d"
-mqttPassword = "d"
+mqttUsername = "userame"
+mqttPassword = "password"
  
 def on_connect(client, userdata, flags, rc):
     print("Connected with result code "+str(rc))
