@@ -1,8 +1,8 @@
 # remote-temp-sensor
 this is a basic project showcasing my dabbling in multi-hardware communication project.
 
-the goal: 
-to send analog sensor data from a lm-35 temperature sensor to an Raspberry Pi via an Arduin Uno and a ESP8266 module.
+the goal: \n
+to send analog sensor data from a lm-35 temperature sensor to an Raspberry Pi via an Arduino Uno and a ESP8266 module.
 
 steps:
 1.sending the data from the sensor to Arduino Uno via i/o pins.
