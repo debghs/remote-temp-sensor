@@ -15,3 +15,7 @@ steps:
 3.sending the data from the ESP8266 module to the Raspberry Pi 4 via MQTT communication protocol.
 
 4.displaying the incoming sensor data on the screen.
+
+note:
+
+do install mqtt on the Raspberry Pi 4 and configure the setup and modify the login id such as username and passwords.
