@@ -8,7 +8,7 @@ void setup() {
 void loop() {
   int sensorValue = analogRead(lm35Pin);
   float temperature = (sensorValue * 5.0 / 1024) * 100.0;
-  if()
+
   Serial.print("Temperature: ");
   Serial.print(temperature);
   Serial.println(" °C");
